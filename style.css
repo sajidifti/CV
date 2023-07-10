@@ -87,6 +87,11 @@ p {
   font-size: 14px;
 }
 
+.skills li:hover{
+  background-color: #333;
+  color: #ccc;
+}
+
 .photo-container {
   text-align: center;
   margin-bottom: 20px;
@@ -97,6 +102,14 @@ p {
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.email-link{
+  text-decoration: none; color: #000;
+}
+
+.email-link:hover{
+  color: #777;
 }
 
 .contact-info {
@@ -150,11 +163,13 @@ p {
   border: 1px solid #ccc;
   padding: 10px;
   text-align: left;
+  color: #777;
 }
 
 .education-table th {
   background-color: #f8f8f8;
   font-weight: bold;
+  color: #777;
 }
 
 .education-table tr:nth-child(even) {
@@ -170,6 +185,19 @@ p {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.interests-icon {
+  display: inline-block;
+  width: 50px;
+}
+
+.interests-list li {
+  color: #777;
+}
+
+.interests-list i {
+  margin-right: 20px;
 }
 
 .references-list {
@@ -196,10 +224,20 @@ p {
 
 .reference-contact {
   margin-bottom: 0;
+  color: #777;
 }
 
 .personal-info p {
   margin-bottom: 5px;
+}
+
+.personal-info a {
+  text-decoration: none;
+  color: #777;
+}
+
+.personal-info a:hover {
+  color: #333;
 }
 
 .info-label {
