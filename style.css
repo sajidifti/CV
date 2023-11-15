@@ -105,11 +105,11 @@ p {
 }
 
 .email-link{
-  text-decoration: none; color: #000;
+  text-decoration: none; color: #777;
 }
 
 .email-link:hover{
-  color: #777;
+  color: #555;
 }
 
 .contact-info {
